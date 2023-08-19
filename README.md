@@ -1,21 +1,21 @@
-# maplibre-gl-sample-control
+# maplibre-gl-sample-svelte-control
 
-This is a sample project that shows how to add a Control to MapLibre GL JS. [demo](https://xiupos.github.io/maplibre-gl-sample-control/)
+This is a sample project using [Svelte](https://svelte.dev/) that shows how to add a Control to MapLibre GL JS. [demo](https://xiupos.github.io/maplibre-gl-sample-svelte-control/)
 
 ![Screenshot](img/screenshot.png)
 
 ## Installation
 
 ```bash
-pnpm add xiupos/maplibre-gl-sample-control
+pnpm add xiupos/maplibre-gl-sample-svelte-control
 ```
 
 ## Usege
 
 ```js
 // Import the plugin
-import { SampleControl } from 'maplibre-gl-sample-control';
-import 'maplibre-gl-sample-control/dist/style.css';
+import { SampleControl } from 'maplibre-gl-sample-svelte-control';
+import 'maplibre-gl-sample-svelte-control/dist/style.css';
 
 // const map = new Map({ ... });
 
@@ -28,7 +28,7 @@ map.on('load', () => {
 
 ## Credits
 
-This project is based on [the MapLibre GL JS documentation](https://maplibre.org/maplibre-gl-js/docs/).
+This project is based on [the MapLibre GL JS documentation](https://maplibre.org/maplibre-gl-js/docs/) and [the Svelte documentation](https://svelte.dev/docs/).
 
 ## License
 
