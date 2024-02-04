@@ -21,11 +21,11 @@
   "type": "module",
   "scripts": {
     "dev": "pnpm dev:demo",
-    "dev:demo": "vite",
-    "dev:lib": "vite --config vite.lib.config.ts",
+    "dev:demo": "vite --config vite.demo.config.ts",
+    "dev:lib": "vite",
     "build": "pnpm build:lib && pnpm build:demo",
-    "build:demo": "svelte-check && vite build",
-    "build:lib": "svelte-check --tsconfig ./tsconfig.lib.json && vite build --config vite.lib.config.ts",
+    "build:demo": "svelte-check --tsconfig ./tsconfig.demo.json && vite build --config vite.demo.config.ts",
+    "build:lib": "svelte-check && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
